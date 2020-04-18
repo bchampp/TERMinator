@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="terminator" Version="11000" InternalType="GUI">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="Image">
+    <File Name="src/image/Sample1.png"/>
+    <File Name="src/image/Makefile"/>
+    <File Name="src/image/imageRecognition"/>
+    <File Name="src/image/image.h"/>
+    <File Name="src/image/image.cpp"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="mainwindow.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="Image.h"/>
+    <File Name="Image.cpp"/>
+    <File Name="main.cpp"/>
+    <File Name="mainwindow.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="MinGW ( gcc.exe (Rev2, Built by MSYS2 project) 8.3.0 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-std=c++11;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-ltesseract;-lpthread;-llept;-lz;-lpng16;-ljpeg;-lgif;-ltiff;-lwebp" Required="yes">
+        <Library Value="gtkmm-3.0"/>
+        <Library Value="atkmm-1.6"/>
+        <Library Value="gdkmm-3.0"/>
+        <Library Value="giomm-2.4"/>
+        <Library Value="pangomm-1.4"/>
+        <Library Value="glibmm-2.4"/>
+        <Library Value="gtk-3"/>
+        <Library Value="gdk-3"/>
+        <Library Value="gdi32"/>
+        <Library Value="imm32"/>
+        <Library Value="shell32"/>
+        <Library Value="ole32"/>
+        <Library Value="uuid"/>
+        <Library Value="winmm"/>
+        <Library Value="dwmapi"/>
+        <Library Value="setupapi"/>
+        <Library Value="cfgmgr32"/>
+        <Library Value="epoxy"/>
+        <Library Value="opengl32"/>
+        <Library Value="gdi32"/>
+        <Library Value="pangocairo-1.0"/>
+        <Library Value="gdi32"/>
+        <Library Value="pangoft2-1.0"/>
+        <Library Value="pangowin32-1.0"/>
+        <Library Value="usp10"/>
+        <Library Value="gdi32"/>
+        <Library Value="pango-1.0"/>
+        <Library Value="fribidi"/>
+        <Library Value="thai"/>
+        <Library Value="datrie"/>
+        <Library Value="atk-1.0"/>
+        <Library Value="cairo-gobject"/>
+        <Library Value="cairomm-1.0"/>
+        <Library Value="cairo"/>
+        <Library Value="pixman-1"/>
+        <Library Value="fontconfig"/>
+        <Library Value="iconv"/>
+        <Library Value="expat"/>
+        <Library Value="freetype"/>
+        <Library Value="bz2"/>
+        <Library Value="harfbuzz"/>
+        <Library Value="usp10"/>
+        <Library Value="gdi32"/>
+        <Library Value="rpcrt4"/>
+        <Library Value="dwrite"/>
+        <Library Value="graphite2"/>
+        <Library Value="png16"/>
+        <Library Value="sigc-2.0"/>
+        <Library Value="gdk_pixbuf-2.0"/>
+        <Library Value="gdiplus"/>
+        <Library Value="ole32"/>
+        <Library Value="jpeg"/>
+        <Library Value="jasper"/>
+        <Library Value="png16"/>
+        <Library Value="tiff"/>
+        <Library Value="zstd"/>
+        <Library Value="lzma"/>
+        <Library Value="jpeg"/>
+        <Library Value="gio-2.0"/>
+        <Library Value="intl"/>
+        <Library Value="shlwapi"/>
+        <Library Value="dnsapi"/>
+        <Library Value="iphlpapi"/>
+        <Library Value="ws2_32"/>
+        <Library Value="gmodule-2.0"/>
+        <Library Value="intl"/>
+        <Library Value="gobject-2.0"/>
+        <Library Value="intl"/>
+        <Library Value="ffi"/>
+        <Library Value="intl"/>
+        <Library Value="glib-2.0"/>
+        <Library Value="ws2_32"/>
+        <Library Value="ole32"/>
+        <Library Value="winmm"/>
+        <Library Value="shlwapi"/>
+        <Library Value="pcre"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="yes" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="MinGW ( TDM-GCC-64 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell pkg-config --cflags gtkmm-3.0)" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="$(shell pkg-config --libs gtkmm-3.0)" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

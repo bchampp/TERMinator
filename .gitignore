@@ -1,0 +1,7 @@
+build/*
+/.vs/Terminator/v16
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/out/build/x64-Debug
+/bin
